@@ -1,0 +1,173 @@
+
+
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: 'Jost', sans-serif;
+}
+
+body{
+background: #000000;
+}
+
+.sector{
+    border-radius: 2rem;
+    background: #FFFFFF;
+}
+
+.align{
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+}
+
+
+i{
+    padding: 10px;
+}
+
+h3{
+    position: flex;
+    justify-content: space-around;
+    left: 20px;
+    padding: 10px;
+}
+
+
+
+.upper{
+position: flex;
+width: 90%;
+height: 2.5rem;
+margin: .2rem;
+padding: 12px;
+color: #31A9F9;
+text-align: center;
+background: #F4F6F7;
+    font-family: 'Jost', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    background: #F4F6F7;
+    width: 90%;
+    height: 20rem;
+    margin: 0.2rem;
+    padding: 22px;
+    color: #31A9F9;
+}  
+
+.ellipse{
+position: absolute;
+width: 21px;
+height: 25px;
+border-radius: 2rem;
+left: 58px;
+background: #FFFFFF;
+}
+
+.liner{
+display: inline-block;
+width: 600px;
+height: 4px;
+border-radius: 1rem;
+left: 20%;
+margin: auto;
+background: #FFFFFF;
+}
+
+#mar{
+    margin: 2rem;
+}
+
+.aligned{
+    margin: auto;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 2px;
+    color: #31A9F9 ;
+}
+
+.top-left{
+ max-width: 60%;
+ color: #5C5858;
+}
+
+.top-right{
+    display: inline;
+   
+}
+
+.icons{
+    display: flex;
+    margin: auto;
+    padding: 2px;
+}
+
+
+.btn{
+    display: inline-block;
+    padding: 15px 18px;
+    left: 50%;
+    text-align: center;
+    background-color: #2760F6;
+    color: white;
+    border:none;
+}
+
+.color-green{
+    color: green;
+}
+
+.color-red{
+    color: #F60909;
+}
+
+.top-color{
+    color:#49BEF9;
+    font-size: 1.2rem;
+    font-weight: .2rem;
+}
+.light-color{
+    color: #8A8B8F;
+}
+
+.dark-color{
+    color:#181818 ;
+}
+
+/* media queries*/
+
+@media screen and (max-width: 720px) {
+    .ellipse{
+      left: 17px;
+    }
+
+    .liner{
+        width: 300px;
+    }
+    .align{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        }
+}
+
+
+@media screen and (max-width: 500px){
+    .align{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        }
+
+}
